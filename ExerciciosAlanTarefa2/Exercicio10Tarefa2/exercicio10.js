@@ -1,0 +1,17 @@
+let nota1 = parseFloat(prompt("Digite a primeira nota:"));
+let nota2 = parseFloat(prompt("Digite a segunda nota:"));
+let nota3 = parseFloat(prompt("Digite a terceira nota:"));
+let nota4 = parseFloat(prompt("Digite a quarta nota:"));
+let media = (nota1 + nota2 + nota3 + nota4 ) /4;
+
+if (media >= 7 ) {
+    alert(`Aluno está aprovado com média = ${media}` );
+    console.log (`Aluno está aprovado com média = ${media}` );
+}else if (media >= 5 ) {
+    alert(`Aluno está em recuperação com média = ${media}` );
+    console.log(`Aluno está em recuperação com média = ${media}` );
+
+} else {
+    alert(`Aluno está reprovado com media = ${media}`);
+    console.log(`Aluno está reprovado com media = ${media}`);
+}
